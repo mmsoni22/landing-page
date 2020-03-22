@@ -2,7 +2,14 @@
  see here : https://mmsoni22.github.io/landing-page/
 
 ## About Project
-This is udacity's front end web developer course's second project.
-They provided HTML and CSS starter code and I have to change in app.js file to 
-make page dynamic.
-This project requires student to build a multi-section landing page, with a dynamically updating navigational menu based on the amount of content that is added to the page.
+Landing page is the conversion of a static page to a page that allows some sort of interaction. The dynamicity is achieved through javascript.
+
+Starter code taken from udacity repository.
+
+This project has the scope of converting a static web page in a single interactive page.
+
+It uses javascript to dynamically create navbar links based on the content, when a section is in the viewport it show the active state of that section.
+
+During the scrolling the navbar is automatically hidden and showed according the direction of the scrolling.
+
+When scrolling past a configurable buffer, a new element will appear close to the bottom of the page. This element can be used by the users to scroll to the very top of the page.
